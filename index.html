@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modo Claro/Oscuro</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="modo-claro">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <span class="navbar-brand">Mi Sitio Web</span>
+        <div class="d-flex">
+          <button id="btnClaro" class="btn btn-light me-2">Modo Claro</button>
+          <button id="btnOscuro" class="btn btn-dark">Modo Oscuro</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <h1 class="text-center mb-4">Bienvenidos a mi página</h1>
+
+      <div class="text-center mb-4">
+        <img
+          src="https://images.unsplash.com/photo-1558244661-d248897f7bc4"
+          alt="Patrón abstracto"
+          class="img-fluid rounded"
+          style="max-height: 400px"
+        />
+      </div>
+
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+            <td>Dato 3</td>
+          </tr>
+          <tr>
+            <td>Dato 4</td>
+            <td>Dato 5</td>
+            <td>Dato 6</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- jQuery y Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

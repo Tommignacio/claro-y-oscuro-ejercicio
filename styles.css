@@ -1,0 +1,36 @@
+.modo-claro {
+  background-color: #f8f9fa;
+  color: #212529;
+  transition: all 0.3s ease;
+}
+
+.modo-claro .navbar {
+  background-color: #e9ecef;
+}
+
+.modo-claro .table {
+  background-color: #ffffff;
+}
+
+.modo-oscuro {
+  background-color: #212529;
+  color: #f8f9fa;
+  transition: all 0.3s ease;
+}
+
+.modo-oscuro .navbar {
+  background-color: #343a40;
+}
+
+.modo-oscuro .table {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.modo-oscuro .table thead th {
+  border-color: #495057;
+}
+
+.modo-oscuro .table td {
+  border-color: #495057;
+}
